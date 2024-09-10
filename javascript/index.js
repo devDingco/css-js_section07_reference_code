@@ -72,7 +72,7 @@ const 스크롤하면실행될녀석 = () => {
     window.document.getElementById("HTML_메인").scrollTop;
 
   // 2. 스크롤이 조금이라도 내려갔으면? 배경색 변경하기
-  if (스크롤내려간길이 == 0) {
+  if (스크롤내려간길이 === 0) {
     window.document.getElementById("HTML_필터").style =
       "background-color: gray;";
   } else {
